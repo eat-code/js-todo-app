@@ -10,7 +10,26 @@
 </head>
 <body>
     
-    
+    <div class="cotainer">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h1><span>Todo</span>List</h1>
+                <div class="input-div">
+                    <input class="form-control item-input" type="text" placeholder="Todo list here">
+                    <button class="btn btn-success btn-add">+</button>
+                </div>
+            </div>
+         </div>
+         <div class="row justify-content-center">
+             <div class="col-md-4 todo-container">
+                <div class="todo-item">
+                    <input class="form-control" type="text" disabled class="item-display">
+                    <button class="btn btn-primary btn-edit">Edit</button>
+                    <button class="btn btn-danger btn-remove">Remove</button>
+                </div>
+             </div>
+         </div>
+    </div>
 
     <script src="main.js"></script>
 </body>
